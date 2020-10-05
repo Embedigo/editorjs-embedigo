@@ -1,0 +1,44 @@
+{
+  "name": "codex-embedigo",
+  "version": "1.0.0",
+  "keywords": [
+    "codex editor",
+    "embed",
+    "tool",
+    "editor.js",
+    "editorjs",
+    "embedigo"
+  ],
+  "description": "Embed Tool based on Embedigo.xyz for Editor.js",
+  "license": "MIT",
+  "repository": "https://github.com/embedigo/codex-embedigo",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch",
+    "test": "mocha -r @babel/register -r ignore-styles --recursive ./test"
+  },
+  "author": {
+    "name": "Embedigo",
+    "email": "hello@embedigo.xyz"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "css-loader": "^3.5.3",
+    "debounce": "^1.2.0",
+    "ignore-styles": "^5.0.1",
+    "mocha": "^7.1.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-nested-ancestors": "^2.0.0",
+    "style-loader": "^1.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
