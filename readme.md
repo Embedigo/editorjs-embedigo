@@ -86,10 +86,10 @@ var editor = EditorJS({
 {
   "type" : "embedigo",
   "data" : {
-    "caption": ""
-    "html": "<div class=\"embedigo-...../>"
-    "key": "aaf8fc33"
-    "provider": "twitter_tweet"
+    "caption": "",
+    "html": "<div class=\"embedigo-...../>",
+    "key": "aaf8fc33",
+    "provider": "twitter_tweet",
     "url": "https://twitter.com/freekmurze/status/1313008788593676288"
   }
 }
