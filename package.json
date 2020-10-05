@@ -1,6 +1,6 @@
 {
   "name": "editorjs-embedigo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "codex editor",
     "embed",
@@ -11,12 +11,11 @@
   ],
   "description": "Embed Tool based on Embedigo.xyz for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/embedigo/codex-embedigo",
+  "repository": "https://github.com/embedigo/editorjs-embedigo",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
-    "build:dev": "webpack --mode development --watch",
-    "test": "mocha -r @babel/register -r ignore-styles --recursive ./test"
+    "build:dev": "webpack --mode development --watch"
   },
   "author": {
     "name": "Embedigo",
@@ -29,11 +28,9 @@
     "@babel/register": "^7.9.0",
     "@babel/runtime": "^7.9.2",
     "babel-loader": "^8.1.0",
-    "chai": "^4.2.0",
     "css-loader": "^3.5.3",
     "debounce": "^1.2.0",
     "ignore-styles": "^5.0.1",
-    "mocha": "^7.1.1",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.1",
     "postcss-nested-ancestors": "^2.0.0",
