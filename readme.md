@@ -4,6 +4,8 @@ Provides Block tool for embedded content for the Editor.js. Tool uses embedigo.x
 
 What is embedigo you can read [here](https://embedigo.xyz/docs#what-is-embedigo)
 
+Thanks editor.js team for original [embed plugin](https://github.com/editor-js/embed).
+
 
 ## Installation
 
